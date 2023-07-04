@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h1>Welcome to My Website</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus lectus id turpis cursus, vitae efficitur tortor lobortis. Suspendisse potenti. Morbi et felis sit amet justo fringilla laoreet vel at tellus.</p>
+    </section>
+    
+    <section>
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum justo sed risus iaculis volutpat. Nullam id felis condimentum, porta tortor vitae, consequat massa.</p>
+    </section>
+    
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Web Design</li>
+        <li>Graphic Design</li>
+        <li>Digital Marketing</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
